@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>142614998556-459fbjsv782e589pkj2sgc1hql4ri0ug.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.142614998556-459fbjsv782e589pkj2sgc1hql4ri0ug</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxpf5_vWwMxgzC0rrtwNCsObkC5dx4VmM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>142614998556</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Solfa.SolfaAdmin</string>
+	<key>PROJECT_ID</key>
+	<string>solfa-34320</string>
+	<key>STORAGE_BUCKET</key>
+	<string>solfa-34320.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:142614998556:ios:fbe332e03a16acc93879d9</string>
+</dict>
+</plist>

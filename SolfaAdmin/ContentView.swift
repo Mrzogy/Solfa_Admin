@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var vm = ViewModel()
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Add Data") {
+                vm.fatchData()
+            }
         }
         .padding()
     }
