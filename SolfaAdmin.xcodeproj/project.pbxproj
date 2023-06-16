@@ -8,24 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		B734FCB52A3AEEDB0029D343 /* SolfaAdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FCB42A3AEEDB0029D343 /* SolfaAdminApp.swift */; };
-		B734FCB72A3AEEDB0029D343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FCB62A3AEEDB0029D343 /* ContentView.swift */; };
 		B734FCB92A3AEEDD0029D343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B734FCB82A3AEEDD0029D343 /* Assets.xcassets */; };
 		B734FCBC2A3AEEDD0029D343 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B734FCBB2A3AEEDD0029D343 /* Preview Assets.xcassets */; };
 		B734FCC32A3AEF040029D343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B734FCC22A3AEF040029D343 /* GoogleService-Info.plist */; };
 		B734FCC62A3AEF5F0029D343 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B734FCC52A3AEF5F0029D343 /* FirebaseAnalytics */; };
 		B734FCC82A3AEF5F0029D343 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B734FCC72A3AEF5F0029D343 /* FirebaseAuth */; };
 		B734FCCA2A3AEF5F0029D343 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B734FCC92A3AEF5F0029D343 /* FirebaseFirestore */; };
-		B734FCCC2A3AF0DE0029D343 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734FCCB2A3AF0DE0029D343 /* ViewModel.swift */; };
+		B7CF61AF2A3C8B6900EA4AA6 /* AuthinticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61AE2A3C8B6800EA4AA6 /* AuthinticationManager.swift */; };
+		B7CF61B12A3C8B8600EA4AA6 /* SignInEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61B02A3C8B8600EA4AA6 /* SignInEmailViewModel.swift */; };
+		B7CF61B32A3C8B8D00EA4AA6 /* settingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61B22A3C8B8D00EA4AA6 /* settingsViewModel.swift */; };
+		B7CF61B52A3C8B9F00EA4AA6 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61B42A3C8B9F00EA4AA6 /* LoginScreenView.swift */; };
+		B7CF61B72A3C8BA500EA4AA6 /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61B62A3C8BA500EA4AA6 /* SignView.swift */; };
+		B7CF61B92A3C8BAC00EA4AA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61B82A3C8BAC00EA4AA6 /* ContentView.swift */; };
+		B7CF61BB2A3C8C7900EA4AA6 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61BA2A3C8C7900EA4AA6 /* UserManager.swift */; };
+		B7CF61BE2A3C8CF200EA4AA6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B7CF61BD2A3C8CF200EA4AA6 /* FirebaseFirestoreSwift */; };
+		B7CF61C02A3C8D2600EA4AA6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61BF2A3C8D2600EA4AA6 /* ViewModel.swift */; };
+		B7CF61C42A3C8EB300EA4AA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61C32A3C8EB300EA4AA6 /* HomeView.swift */; };
+		B7CF61C62A3C8EE100EA4AA6 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61C52A3C8EE100EA4AA6 /* Account.swift */; };
+		B7CF61C82A3C8F6A00EA4AA6 /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61C72A3C8F6A00EA4AA6 /* AdminViewModel.swift */; };
+		B7CF61CA2A3C984E00EA4AA6 /* AddStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61C92A3C984E00EA4AA6 /* AddStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B734FCB12A3AEEDB0029D343 /* SolfaAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolfaAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B734FCB42A3AEEDB0029D343 /* SolfaAdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolfaAdminApp.swift; sourceTree = "<group>"; };
-		B734FCB62A3AEEDB0029D343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B734FCB82A3AEEDD0029D343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B734FCBB2A3AEEDD0029D343 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B734FCC22A3AEF040029D343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B734FCCB2A3AF0DE0029D343 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B7CF61AE2A3C8B6800EA4AA6 /* AuthinticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthinticationManager.swift; sourceTree = "<group>"; };
+		B7CF61B02A3C8B8600EA4AA6 /* SignInEmailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInEmailViewModel.swift; sourceTree = "<group>"; };
+		B7CF61B22A3C8B8D00EA4AA6 /* settingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewModel.swift; sourceTree = "<group>"; };
+		B7CF61B42A3C8B9F00EA4AA6 /* LoginScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		B7CF61B62A3C8BA500EA4AA6 /* SignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		B7CF61B82A3C8BAC00EA4AA6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../SolfaCoustomer/SolfaCoustomer/View/SignInView/ContentView.swift; sourceTree = "<group>"; };
+		B7CF61BA2A3C8C7900EA4AA6 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		B7CF61BF2A3C8D2600EA4AA6 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = ../../../SolfaCoustomer/SolfaCoustomer/ViewModel/SignInViewModel/ViewModel.swift; sourceTree = "<group>"; };
+		B7CF61C32A3C8EB300EA4AA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B7CF61C52A3C8EE100EA4AA6 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		B7CF61C72A3C8F6A00EA4AA6 /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
+		B7CF61C92A3C984E00EA4AA6 /* AddStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,7 @@
 				B734FCC62A3AEF5F0029D343 /* FirebaseAnalytics in Frameworks */,
 				B734FCC82A3AEF5F0029D343 /* FirebaseAuth in Frameworks */,
 				B734FCCA2A3AEF5F0029D343 /* FirebaseFirestore in Frameworks */,
+				B7CF61BE2A3C8CF200EA4AA6 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +67,10 @@
 		B734FCA82A3AEEDB0029D343 = {
 			isa = PBXGroup;
 			children = (
+				B734FCB42A3AEEDB0029D343 /* SolfaAdminApp.swift */,
 				B734FCB32A3AEEDB0029D343 /* SolfaAdmin */,
 				B734FCB22A3AEEDB0029D343 /* Products */,
+				B7CF61BC2A3C8CF200EA4AA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,9 +85,9 @@
 		B734FCB32A3AEEDB0029D343 /* SolfaAdmin */ = {
 			isa = PBXGroup;
 			children = (
-				B734FCB42A3AEEDB0029D343 /* SolfaAdminApp.swift */,
-				B734FCCB2A3AF0DE0029D343 /* ViewModel.swift */,
-				B734FCB62A3AEEDB0029D343 /* ContentView.swift */,
+				B7CF61AD2A3C8B3700EA4AA6 /* ViewModel */,
+				B7CF61AC2A3C8B2800EA4AA6 /* Model */,
+				B7CF61AB2A3C8B0500EA4AA6 /* View */,
 				B734FCB82A3AEEDD0029D343 /* Assets.xcassets */,
 				B734FCC22A3AEF040029D343 /* GoogleService-Info.plist */,
 				B734FCBA2A3AEEDD0029D343 /* Preview Content */,
@@ -77,6 +101,46 @@
 				B734FCBB2A3AEEDD0029D343 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7CF61AB2A3C8B0500EA4AA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF61B42A3C8B9F00EA4AA6 /* LoginScreenView.swift */,
+				B7CF61B62A3C8BA500EA4AA6 /* SignView.swift */,
+				B7CF61B82A3C8BAC00EA4AA6 /* ContentView.swift */,
+				B7CF61C32A3C8EB300EA4AA6 /* HomeView.swift */,
+				B7CF61C52A3C8EE100EA4AA6 /* Account.swift */,
+				B7CF61C92A3C984E00EA4AA6 /* AddStore.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7CF61AC2A3C8B2800EA4AA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7CF61AD2A3C8B3700EA4AA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF61BF2A3C8D2600EA4AA6 /* ViewModel.swift */,
+				B7CF61AE2A3C8B6800EA4AA6 /* AuthinticationManager.swift */,
+				B7CF61B02A3C8B8600EA4AA6 /* SignInEmailViewModel.swift */,
+				B7CF61B22A3C8B8D00EA4AA6 /* settingsViewModel.swift */,
+				B7CF61BA2A3C8C7900EA4AA6 /* UserManager.swift */,
+				B7CF61C72A3C8F6A00EA4AA6 /* AdminViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B7CF61BC2A3C8CF200EA4AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +163,7 @@
 				B734FCC52A3AEF5F0029D343 /* FirebaseAnalytics */,
 				B734FCC72A3AEF5F0029D343 /* FirebaseAuth */,
 				B734FCC92A3AEF5F0029D343 /* FirebaseFirestore */,
+				B7CF61BD2A3C8CF200EA4AA6 /* FirebaseFirestoreSwift */,
 			);
 			productName = SolfaAdmin;
 			productReference = B734FCB12A3AEEDB0029D343 /* SolfaAdmin.app */;
@@ -158,9 +223,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B734FCB72A3AEEDB0029D343 /* ContentView.swift in Sources */,
-				B734FCCC2A3AF0DE0029D343 /* ViewModel.swift in Sources */,
+				B7CF61C82A3C8F6A00EA4AA6 /* AdminViewModel.swift in Sources */,
+				B7CF61C02A3C8D2600EA4AA6 /* ViewModel.swift in Sources */,
+				B7CF61C62A3C8EE100EA4AA6 /* Account.swift in Sources */,
+				B7CF61BB2A3C8C7900EA4AA6 /* UserManager.swift in Sources */,
+				B7CF61B32A3C8B8D00EA4AA6 /* settingsViewModel.swift in Sources */,
+				B7CF61CA2A3C984E00EA4AA6 /* AddStore.swift in Sources */,
+				B7CF61C42A3C8EB300EA4AA6 /* HomeView.swift in Sources */,
+				B7CF61B52A3C8B9F00EA4AA6 /* LoginScreenView.swift in Sources */,
+				B7CF61AF2A3C8B6900EA4AA6 /* AuthinticationManager.swift in Sources */,
+				B7CF61B92A3C8BAC00EA4AA6 /* ContentView.swift in Sources */,
+				B7CF61B72A3C8BA500EA4AA6 /* SignView.swift in Sources */,
 				B734FCB52A3AEEDB0029D343 /* SolfaAdminApp.swift in Sources */,
+				B7CF61B12A3C8B8600EA4AA6 /* SignInEmailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +463,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B734FCC42A3AEF5F0029D343 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		B7CF61BD2A3C8CF200EA4AA6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B734FCC42A3AEF5F0029D343 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
