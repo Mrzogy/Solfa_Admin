@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "صورة ١ ذو. ح، ١٤٤٤ هـ في الساعة ٣.٥١ ص.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

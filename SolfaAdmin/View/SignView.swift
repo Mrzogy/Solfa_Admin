@@ -17,11 +17,12 @@ struct SignView: View {
                 .padding()
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
-            
+                .keyboardType(.emailAddress)
             SecureField("password...", text: $viewModel.password)
                 .padding()
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
+                
             
             Button {
                 Task{
@@ -46,17 +47,19 @@ struct SignView: View {
             } label: {
                 Text("Sign In")
                     .font(.headline)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("Color 1"))
                     .frame(maxWidth: .infinity)
                     .frame(height: 55)
-                    .background(.black)
+                    .background(Color("Color"))
                     .cornerRadius(10)
             }
             .alert("Email OR Password Faild",isPresented: $ShowAlert) {
                 Text("No")
             }
             Spacer()
-
+            Image("App 1")
+                .resizable()
+                .aspectRatio( contentMode: .fit)
 //           RiveViewModel(fileName:"viking_demo").view()
 //                .scaledToFit()
 //                .frame(width: 300,height: 300)

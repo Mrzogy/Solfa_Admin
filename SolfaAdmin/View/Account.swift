@@ -21,18 +21,27 @@ struct Account: View {
                 
                 VStack(alignment: .leading) {
                     Text("Name")
-                    TextField("name", text: $vm1.name)
-                        .textFieldStyle(.roundedBorder)
-                }
-                VStack(alignment: .leading) {
-                    Text("phone")
-                    TextField("phone", text: $vm1.phone)
-                        .textFieldStyle(.roundedBorder)
+                    TextField("name...", text: $vm1.name)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                        .keyboardType(.default)
                 }
                 VStack(alignment: .leading) {
                     Text("Email")
-                    TextField("Email", text: $vm1.email)
-                        .textFieldStyle(.roundedBorder)
+                    TextField("Email...", text: $vm1.email)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                        .keyboardType(.emailAddress)
+                }
+                VStack(alignment: .leading) {
+                    Text("phone")
+                    TextField("phone...", text: $vm1.phone)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                        .keyboardType(.asciiCapableNumberPad)
                 }
 
                 
@@ -49,10 +58,10 @@ struct Account: View {
             } label: {
                 Text("Update")
                     .font(.headline)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("Color 1"))
                     .frame(maxWidth: .infinity)
                     .frame(height: 55)
-                    .background(.black)
+                    .background(Color("Color"))
                     .cornerRadius(10)
             }
             Button {

@@ -16,16 +16,23 @@ struct AddStore: View {
     @Binding var shoSignInView:Bool
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            Image("Store")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+               Text("""
+Here You Can Make Your Own Store To Show
+All People On The World.
+""")
+               
             Button {
                 self.showPopover = true
             } label: {
                 Text("Add New Store")
                     .font(.headline)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("Color 1"))
                     .frame(maxWidth: .infinity)
                     .frame(height: 55)
-                    .background(.black)
+                    .background(Color("Color"))
                     .cornerRadius(10)
             }.popover(isPresented: $showPopover,arrowEdge: .top) {
                 VStack(spacing: 20){
@@ -34,12 +41,18 @@ struct AddStore: View {
                         VStack(alignment: .leading) {
                             Text("Store Name")
                             TextField("Store Name", text: $store.Storename)
-                                .textFieldStyle(.roundedBorder)
+                                .padding()
+                                .background(Color.gray.opacity(0.4))
+                                .cornerRadius(10)
+                                .keyboardType(.default)
                         }
                         VStack(alignment: .leading) {
                             Text("Store Title")
                             TextField("Store Title", text:$store.StoreTitle)
-                                .textFieldStyle(.roundedBorder)
+                                .padding()
+                                .background(Color.gray.opacity(0.4))
+                                .cornerRadius(10)
+                                .keyboardType(.default)
                         }
 //                        VStack(alignment: .leading) {
 //                            Text("Email")
@@ -60,10 +73,10 @@ struct AddStore: View {
                     } label: {
                         Text("Update")
                             .font(.headline)
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("Color 1"))
                             .frame(maxWidth: .infinity)
                             .frame(height: 55)
-                            .background(.black)
+                            .background(Color("Color"))
                             .cornerRadius(10)
                     }
                 
